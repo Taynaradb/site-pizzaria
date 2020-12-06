@@ -1,0 +1,147 @@
+body {
+    background: url(../images/fundo.jpg);
+    background-size: repeat;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header {
+    margin: 0 auto;
+    width: 1200px;
+    background-color: #b22d00;
+    display: flex;
+}
+
+header img {
+    text-align: left;
+    padding-left: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.telefone {
+    padding-left: 700px;
+    padding-top: 30px;
+    color: white;
+}
+
+.menu {
+    margin: 0 auto;
+    width: 1200px;
+    background-color: #d9a300;
+    display: flex;
+}
+
+
+/* Style the links inside the navigation bar */
+
+.nav a {
+    float: left;
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+
+/* Change the color of links on hover */
+
+.nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+
+/* Add a color to the active/current link */
+
+.conteudo-principal {
+    border: 1px solid white;
+    margin: 0 150px;
+    padding: 30px;
+    background: white;
+    font-size: 14px;
+}
+
+.lista-imagens ul {
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+    justify-content: space-between;
+}
+
+h1 {
+    border-bottom: 1px solid black;
+}
+
+.cardapio ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: justify;
+    column-count: 3;
+    line-height: 20px;
+}
+
+.cardapio {
+    display: inline-block;
+}
+
+.cardapio img {
+    float: left;
+}
+
+.cardapio a {
+    text-decoration: none;
+    color: rgb(165, 49, 3);
+}
+
+.cardapio p {
+    padding-left: 10px;
+}
+
+#sobre-nos {
+    padding-left: 110px;
+}
+
+.conteudo {
+    display: flex;
+}
+
+.texto {
+    width: 50%;
+}
+
+.galeria {
+    width: 50%;
+}
+
+.galeria img {
+    width: 130px;
+}
+
+.box-2 {
+    display: inline-block;
+}
+
+.box-2 li {
+    list-style-type: none;
+}
+
+.formulario,
+.contato {
+    display: inline-block;
+}
+
+.formulario {
+    position: absolute;
+}
+
+.contato {
+    padding-left: 70%;
+    position: relative
+}
+
+.rodape {
+    background: rgb(48, 47, 47);
+    color: white;
+    margin: 0 150px;
+    padding: 1px 30px;
+}
